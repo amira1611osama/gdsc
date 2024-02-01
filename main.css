@@ -1,0 +1,98 @@
+.sec-three {
+  background-color: #f4f4f4;
+  padding-bottom: 50px;
+}
+.sec-three .card {
+  border: none !important;
+  border-radius: 20px;
+}
+.sec-three .card:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: var(--transation);
+  transition: var(--transation);
+  cursor: pointer;
+}
+
+.sec-4 {
+  background-color: #080414;
+}
+.sec-4 .container h2 {
+  padding: 50px;
+  text-align: center;
+  text-shadow: var(--text-shadow);
+  color: var(--main-color);
+}
+.sec-4 .container .card {
+  border: none;
+}
+.sec-4 .container .card:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: var(--transation);
+  transition: var(--transation);
+}
+.sec-4 .container .card img {
+  width: 100%;
+  height: 60vh;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+@media (max-width: 767px) {
+  .sec-4 .container .card img {
+    height: 40vh;
+  }
+}
+.sec-4 .container .card img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transition: var(--transation);
+  transition: var(--transation);
+}
+.sec-4 .container .card .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.sec-4 .container .card .flex a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.sec-5 {
+  text-align: center;
+}
+.sec-5 h2 {
+  font-size: 38px;
+  font-weight: 800;
+  padding-top: 20px;
+}
+.sec-5 .form input {
+  margin-bottom: 20px;
+  border: none;
+  -webkit-box-shadow: 2px 3px 2px 3px #d4d3d3;
+          box-shadow: 2px 3px 2px 3px #d4d3d3;
+  border-radius: 20px;
+}
+.sec-5 .form button {
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  color: var(--main-color);
+  font-weight: 600;
+  background-color: #286098;
+  margin-top: 20px;
+}
+.sec-5 .form button:hover {
+  background-color: var(--main-text-color);
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: var(--transation);
+  transition: var(--transation);
+}

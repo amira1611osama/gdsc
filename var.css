@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Variables Of Code */
+:root {
+    --main-bg-nav-color: #0c1c2c;
+    --main-text-color: #3c88f8;
+    --main-color: #f8f4f4;
+    --color2:rgb(243, 33, 33);
+    --green:#0ca038;
+    --yellow:#f8bc08;
+    --text-shadow: 4px 4px 10px #ffffff;
+    --transation: .5s;
+    --filter: grayscale(100%);
+    --box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.15);
+}
